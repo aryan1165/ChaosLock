@@ -2,7 +2,7 @@
 rRange = 2.8:0.01:4; % Range of parameter values
 nIterations = 1000; % Number of iterations
 
-% Initialize Lyapunov exponent vector
+% Initialize Lyapunov exponent vecto
 lambdaValues = zeros(size(rRange));
 
 % Iterate over different values of r
