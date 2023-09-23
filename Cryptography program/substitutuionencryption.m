@@ -17,8 +17,8 @@ function [string,self] = substitutuionencryption(self,x_n,message)
         end 
     end 
     
-    writematrix(list1,'keys/subsitutionlist1.txt');
-    writematrix(list2,'keys/subsitutionlist2.txt');
+    writematrix(list1,'../keys/subsitutionlist1.txt');
+    writematrix(list2,'../keys/subsitutionlist2.txt');
 
     plain=double(message);
     

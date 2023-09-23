@@ -1,6 +1,6 @@
 function [string,self] = ShiftEncryption(self,x_n,message)
     [x,self]=Random(self,x_n,0,1000);
-    fileID=fopen('keys/shiftcipherKEY.txt','w');
+    fileID=fopen('../keys/shiftcipherKEY.txt','w');
     fprintf(fileID,'%d',x);
     fclose(fileID);
 
@@ -18,7 +18,7 @@ function [string,self] = ShiftEncryption(self,x_n,message)
     end
     
     
-    writematrix(prob,'keys/shiftcipherprob.txt')
+    writematrix(prob,'../keys/shiftcipherprob.txt')
 
     string=char(ciphered);
     self=self;

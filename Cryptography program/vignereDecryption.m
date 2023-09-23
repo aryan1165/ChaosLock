@@ -1,8 +1,8 @@
 function string= vignereDecryption(message)
 
-keylist=readmatrix('keys/vignerekeylist.txt');
+keylist=readmatrix('../keys/vignerekeylist.txt');
 
-prob=readmatrix('keys/vignereprob.txt');
+prob=readmatrix('../keys/vignereprob.txt');
 
 y=double(message);
 plain=[];

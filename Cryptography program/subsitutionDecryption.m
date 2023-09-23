@@ -1,7 +1,7 @@
 function string = subsitutionDecryption(message)
     
-   list1= readmatrix('keys/subsitutionlist1.txt');
-   list2= readmatrix('keys/subsitutionlist2.txt');
+   list1= readmatrix('../keys/subsitutionlist1.txt');
+   list2= readmatrix('../keys/subsitutionlist2.txt');
 
    ciphered=double(message);
     index=[];
