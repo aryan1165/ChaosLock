@@ -22,9 +22,9 @@ randlist = [];
         end 
     end 
 
-    writematrix(randlist,'keys/Randomlist.txt');
+    writematrix(randlist,'../keys/Randomlist.txt');
 
-    fileID=fopen('text.txt','r');
+    fileID=fopen('../text.txt','r');
     message=fscanf(fileID,'%c');
     
 [message,self]=encryption(randlist(1),self,x_n,message);
@@ -32,7 +32,7 @@ randlist = [];
 [message,self]=encryption(randlist(3),self,x_n,message);
 
 
-fileID=fopen('ENCRYPTED.txt','w');
+fileID=fopen('../ENCRYPTED.txt','w');
 fprintf(fileID,'%c',message);
 
 

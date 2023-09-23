@@ -12,7 +12,7 @@ for j=1:(length(message)-length(keylist))
     keylist=[keylist,keylist(j)];
 end 
 
- writematrix(keylist,'keys/vignerekeylist.txt');
+ writematrix(keylist,'../keys/vignerekeylist.txt');
 
  prob=[];
  encryptedList=[];
@@ -25,7 +25,7 @@ end
      end
      encryptedList(k)=y;
  end 
-    writematrix(prob,'keys/vignereprob.txt');
+    writematrix(prob,'../keys/vignereprob.txt');
 
  string=char(encryptedList);
  self=self;
