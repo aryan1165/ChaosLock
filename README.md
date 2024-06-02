@@ -44,3 +44,4 @@ Contributions to this project are welcome. Feel free to open a pull request or a
 - [Aryan Sharma](https://github.com/aryan1165)
 - [Saswat Susmoy Sahoo](https://github.com/Saswatsusmoy)
 - [Tushitaa Narayan Ojha](https://github.com/Tushitaa18)
+- [Mahima Agarwal](https://github.com/mahi01agarwal)
